@@ -1,0 +1,24 @@
+$dimension-padding: 5px;
+
+%color-shared {
+  color: white;
+  padding: $dimension-padding;
+}
+
+.dimension-container {
+  width: $total-width;
+  display: flex;
+  flex-direction: row;
+}
+
+.dimension300 {
+  @extend %color-shared;
+  @include calc-width(300px, $dimension-padding);
+  background-color: blue;
+}
+
+.dimension660 {
+  @extend %color-shared;
+  @include calc-width(660px, $dimension-padding);
+  background-color: red;
+}

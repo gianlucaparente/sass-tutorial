@@ -1,0 +1,39 @@
+$font: Helvetica, sans-serif;
+
+$total-width: 960px;
+
+$title-size: 32px;
+$nav-size: 18px;
+$common-size: 12px;
+
+$primary-color: #333;
+$title-color: grey;
+
+$content-padding: 10px;
+
+$messages-radius: 5px;
+$nav-radius: 10px;
+
+@import 'partials/reset';
+@import 'partials/mixins';
+@import 'partials/header';
+@import 'partials/messages';
+@import 'partials/dimensions';
+@import 'partials/items';
+
+body {
+  font: 100% $font;
+  font-size: $common-size;
+  color: $primary-color;
+  width: $total-width;
+  margin: auto;
+}
+
+.content {
+  
+}
+
+footer {
+  border: 1px solid;
+  border-color: green;
+}

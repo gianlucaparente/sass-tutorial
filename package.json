@@ -1,0 +1,18 @@
+{
+  "name": "sasstutorial",
+  "version": "1.0.0",
+  "description": "Sass Tutorial",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "aaa"
+  },
+  "author": "Gianluca Parente",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.0.0-beta.5.2"
+  }
+}
